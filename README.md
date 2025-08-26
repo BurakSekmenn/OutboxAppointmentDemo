@@ -1,4 +1,4 @@
-﻿# 🗓️ Outbox Pattern ile Randevu & Takvim Daveti (.ics)
+# 🗓️ Outbox Pattern ile Randevu & Takvim Daveti (.ics)
 
 Bu proje, **Outbox Pattern** kullanarak randevu oluşturma senaryosunu güvenilir hale getirmeyi amaçlar.  
 Klasik akışta randevu kaydı alındığında doğrudan e-posta gönderilir. Eğer o anda uygulama çökerse, e-posta kaybolur.  
@@ -18,12 +18,12 @@ Bu problem Outbox Pattern ile çözülür: mesaj önce **veritabanına kaydedili
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- [.NET 9](https://dotnet.microsoft.com/)  
-- [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/)  
-- [Pomelo.EntityFrameworkCore.MySql](https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql)  
-- [FluentEmail](https://github.com/lukencode/FluentEmail)  
-- [SMTP4Dev](https://github.com/rnwood/smtp4dev)  
-- [Mapster](https://github.com/MapsterMapper/Mapster)  
+- [.NET 9]
+- [Entity Framework Core]
+- [Pomelo.EntityFrameworkCore.MySql]
+- [FluentEmail]
+- [SMTP4Dev]  
+- [Mapster] 
 
 ---
 
@@ -33,10 +33,10 @@ Bu problem Outbox Pattern ile çözülür: mesaj önce **veritabanına kaydedili
 ![Services](./Backgroundservis.png)
 
 ### Appointment Endpoint
-![Endpoint](./Endpoint.png)
+![Services](./Endpoint.png)
 
 ### Entity & Enum Yapısı
-![Entity](./Enity_Enum.png)
+![Models](./Enity_Enum.png)
 
 ---
 
