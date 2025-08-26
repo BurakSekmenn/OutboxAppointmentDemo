@@ -30,7 +30,7 @@ Bu problem Outbox Pattern ile çözülür: mesaj önce **veritabanına kaydedili
 ## 📸 Ekran Görüntüleri
 
 ### Outbox Worker
-![BackgroundService](./Backgroundservis.png)
+![Services](./Backgroundservis.png)
 
 ### Appointment Endpoint
 ![Endpoint](./Endpoint.png)
